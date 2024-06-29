@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "f11": {
+      "commandName": "Project",
+      "commandLineArgs": "TRACE;DEBUG;NET;NET6_0;NETCOREAPP"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrafikLambalari", "TrafikLambalari\TrafikLambalari.csproj", "{3EE8506A-B9FE-4B62-8952-15524E05FF27}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EE8506A-B9FE-4B62-8952-15524E05FF27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EE8506A-B9FE-4B62-8952-15524E05FF27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EE8506A-B9FE-4B62-8952-15524E05FF27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EE8506A-B9FE-4B62-8952-15524E05FF27}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE362CC3-2992-44E0-8BA8-B759C0F8EFA6}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpDersTekrar2", "CSharpDersTekrar2\CSharpDersTekrar2.csproj", "{19DC9677-ED35-4EF5-9A36-20752E4614EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19DC9677-ED35-4EF5-9A36-20752E4614EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19DC9677-ED35-4EF5-9A36-20752E4614EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19DC9677-ED35-4EF5-9A36-20752E4614EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19DC9677-ED35-4EF5-9A36-20752E4614EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {232E9DCE-77F8-4625-A5E9-D3D1D91DD8E5}
+	EndGlobalSection
+EndGlobal

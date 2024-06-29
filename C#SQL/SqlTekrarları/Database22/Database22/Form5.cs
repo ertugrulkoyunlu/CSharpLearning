@@ -1,0 +1,117 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Data.OleDb;
+
+namespace Database22
+{
+
+    public partial class Form5 : Form
+    {
+        public Form5()
+        {
+            InitializeComponent();
+        }
+
+        OleDbConnection conn2 = new OleDbConnection("Provider=Microsoft.Ace.OleDb.12.0;Data Source= C:\\Users\\Lenovo\\ZZDatabase\\elektrik2.accdb");
+        DataTable Tablo2 = new DataTable();
+        OleDbDataAdapter adtr2 = new OleDbDataAdapter();
+        OleDbCommand cmd2 = new OleDbCommand();
+
+        void listele2()
+        {
+            Tablo2.Clear();
+            conn2.Open();
+            OleDbDataAdapter adtr2 = new OleDbDataAdapter("Select * from Tablo1", conn2);
+            adtr2.Fill(Tablo2);
+            dataGridView1.DataSource = Tablo2;
+            adtr2.Dispose();
+            conn2.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            OleDbConnection conn = new OleDbConnection();
+            OleDbCommand cmd2 = new OleDbCommand();
+            OleDbCommand cmd3 = new OleDbCommand();
+            OleDbDataReader dr;
+
+            string a1, a2, a3, a4, a5, a6, a7, a8, a9;
+            double harcama, meblag;
+
+            conn.ConnectionString = "Provider=Microsoft.Ace.OleDb.12.0;Data Source= C:\\Users\\Lenovo\\ZZDatabase\\elektrik.accdb";
+            conn.Open();
+
+            cmd2 = conn.CreateCommand();
+            cmd2.CommandText = "Select * From Tablo1";
+            dr = cmd2.ExecuteReader();
+
+            while (dr.Read())
+            {
+                a1 = "" + dr["adi"];
+                a2 = "" + dr["soyadi"];
+                a3 = "" + dr["adresi"];
+                a4 = "" + dr["sayacno"];
+                a5 = "" + dr["ilkendex"];
+                a6 = "" + dr["sonendex"];
+                a7 = "" + dr["aboneno"];
+
+                harcama = Convert.ToDouble(a6) - Convert.ToDouble(a5);
+                meblag = harcama * 1.5;
+                a8 = Convert.ToString(harcama);
+                a9 = Convert.ToString(meblag);
+
+                string source = "Provider=Microsoft.Ace.OleDb.12.0;Data Source= C:\\Users\\Lenovo\\ZZDatabase\\elektrik2.accdb";
+                OleDbConnection conn3 = new OleDbConnection(source);
+
+                conn3.Open();
+                string query = "Insert Into  Tablo1([adi],[soyadi],[adresi],[sayacno],[ilkendex],[sonendex],[aboneno],[harcama],[meblag])Values('" + a1 + "','" + a2 + "','" + a3 + "','" + a4 + "','" + a5 + "','" + a6 +
+                "','" + a7 + "','" + a8 + "','" + a9 + "')";
+                OleDbCommand cmd = new OleDbCommand(query, conn3);
+                MessageBox.Show(cmd.ExecuteNonQuery() + "kayit eklendi");
+
+            }
+
+            conn.Close();
+
+            listele2();
+            dataGridView1.Columns[0].HeaderText = "adi";
+            dataGridView1.Columns[1].HeaderText = "soyadi";
+            dataGridView1.Columns[2].HeaderText = "adresi";
+            dataGridView1.Columns[3].HeaderText = "sayacno";
+            dataGridView1.Columns[4].HeaderText = "ilkendex";
+            dataGridView1.Columns[5].HeaderText = "sondex";
+            dataGridView1.Columns[6].HeaderText = "aboneno";
+            dataGridView1.Columns[7].HeaderText = "harcama";
+            dataGridView1.Columns[8].HeaderText = "meblag";
+
+        }
+
+        private void Form5_Load(object sender, EventArgs e)
+        {
+            listele2();
+            dataGridView1.Columns[0].HeaderText = "adi";
+            dataGridView1.Columns[1].HeaderText = "soyadi";
+            dataGridView1.Columns[2].HeaderText = "adresi";
+            dataGridView1.Columns[3].HeaderText = "sayacno";
+            dataGridView1.Columns[4].HeaderText = "ilkendex";
+            dataGridView1.Columns[5].HeaderText = "sondex";
+            dataGridView1.Columns[6].HeaderText = "aboneno";
+            dataGridView1.Columns[7].HeaderText = "harcama";
+            dataGridView1.Columns[8].HeaderText = "meblag";
+        }
+
+        private void anasayfaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form1 frm = new Form1();
+            frm.ShowDialog();
+        }
+    }
+}

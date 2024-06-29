@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGridViewEklemeSilme", "DataGridViewEklemeSilme\DataGridViewEklemeSilme.csproj", "{E50430B4-3185-4D12-87ED-664FE2DEEFFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E50430B4-3185-4D12-87ED-664FE2DEEFFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E50430B4-3185-4D12-87ED-664FE2DEEFFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E50430B4-3185-4D12-87ED-664FE2DEEFFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E50430B4-3185-4D12-87ED-664FE2DEEFFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A23E6D2-04ED-480F-89F1-6C292A58B504}
+	EndGlobalSection
+EndGlobal

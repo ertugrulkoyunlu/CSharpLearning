@@ -1,0 +1,5 @@
+﻿Build started...
+1>------ Build started: Project: GDHR1, Configuration: Debug x64 ------
+1>  GDHR1 -> C:\Users\Lenovo\Source\Repos\GDHR1\bin\x64\Debug\GDHR1.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build started at 5:55 AM and took 00,359 seconds ==========

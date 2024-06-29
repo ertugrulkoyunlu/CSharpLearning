@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgoritmaSql2", "AlgoritmaSql2\AlgoritmaSql2.csproj", "{307FAEB3-9E20-4BFB-917A-097A86E30752}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{307FAEB3-9E20-4BFB-917A-097A86E30752}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{307FAEB3-9E20-4BFB-917A-097A86E30752}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{307FAEB3-9E20-4BFB-917A-097A86E30752}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{307FAEB3-9E20-4BFB-917A-097A86E30752}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36E5F78D-4251-4102-AF64-500F5D8CFC05}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dizi3", "Dizi3\Dizi3.csproj", "{04E5E401-D578-4740-802F-0AD993A61FD2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04E5E401-D578-4740-802F-0AD993A61FD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04E5E401-D578-4740-802F-0AD993A61FD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04E5E401-D578-4740-802F-0AD993A61FD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04E5E401-D578-4740-802F-0AD993A61FD2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3EF802D-2C66-422C-A5FF-4F089E7CC552}
+	EndGlobalSection
+EndGlobal

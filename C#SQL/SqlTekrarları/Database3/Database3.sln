@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database3", "Database3\Database3.csproj", "{443F8638-0B91-4C63-88B6-1001886294CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{443F8638-0B91-4C63-88B6-1001886294CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{443F8638-0B91-4C63-88B6-1001886294CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{443F8638-0B91-4C63-88B6-1001886294CD}.Debug|x64.ActiveCfg = Debug|x64
+		{443F8638-0B91-4C63-88B6-1001886294CD}.Debug|x64.Build.0 = Debug|x64
+		{443F8638-0B91-4C63-88B6-1001886294CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{443F8638-0B91-4C63-88B6-1001886294CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{443F8638-0B91-4C63-88B6-1001886294CD}.Release|x64.ActiveCfg = Release|x64
+		{443F8638-0B91-4C63-88B6-1001886294CD}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7432F52-DD9C-4562-9D90-552D03A67E1E}
+	EndGlobalSection
+EndGlobal

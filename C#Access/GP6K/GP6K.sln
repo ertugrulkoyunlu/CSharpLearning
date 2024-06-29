@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GP6K", "GP6K.csproj", "{EEC69477-E5F1-48CC-9AE0-69105E53A779}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEC69477-E5F1-48CC-9AE0-69105E53A779}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEC69477-E5F1-48CC-9AE0-69105E53A779}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEC69477-E5F1-48CC-9AE0-69105E53A779}.Debug|x64.ActiveCfg = Debug|x64
+		{EEC69477-E5F1-48CC-9AE0-69105E53A779}.Debug|x64.Build.0 = Debug|x64
+		{EEC69477-E5F1-48CC-9AE0-69105E53A779}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEC69477-E5F1-48CC-9AE0-69105E53A779}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEC69477-E5F1-48CC-9AE0-69105E53A779}.Release|x64.ActiveCfg = Release|x64
+		{EEC69477-E5F1-48CC-9AE0-69105E53A779}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C71E2EDC-A455-45F9-9159-40840DDCC472}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DegiskenlerVariables", "DegiskenlerVariables.csproj", "{0BADC505-E2E9-4DBD-8654-E3A9EF230801}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{03F7B293-49E8-4555-9791-2945ABB70F61}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BADC505-E2E9-4DBD-8654-E3A9EF230801}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BADC505-E2E9-4DBD-8654-E3A9EF230801}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BADC505-E2E9-4DBD-8654-E3A9EF230801}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BADC505-E2E9-4DBD-8654-E3A9EF230801}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F19B3C6-11C9-4EF1-924A-1FC9C161E5D6}
+	EndGlobalSection
+EndGlobal
