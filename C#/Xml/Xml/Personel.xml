@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="XSLTPersonel.xslt"?>
+<insankaynaklari>
+	<personel>
+		<adi>Suat</adi>
+		<soyadi>Akan</soyadi>
+		<unvan>Asci</unvan>
+	</personel>
+	<personel>
+		<adi>Fuat</adi>
+		<soyadi>Akin</soyadi>
+		<unvan>Veteriner</unvan>
+	</personel>
+	<personel>
+		<adi>Sait</adi>
+		<soyadi>Akar</soyadi>
+		<unvan>Hasta Bakici</unvan>
+	</personel>
+</insankaynaklari>

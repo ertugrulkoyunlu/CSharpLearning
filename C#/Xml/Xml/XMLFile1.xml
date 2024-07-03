@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="Kitaplar3.xslt"?>
+<kitaplar>
+	<kitap>
+		<numara>1</numara>
+		<ad>Safahat</ad>
+		<yazarlar>
+			<yazar>M. Akif Ersoy</yazar>
+		</yazarlar>
+		<fiyat>45</fiyat>
+	</kitap>
+	<kitap>
+		<numara>2</numara>
+		<ad>Nutuk</ad>
+		<yazarlar>
+			<yazar>M. Kemal Ataturk</yazar>
+		</yazarlar>
+		<fiyat>80</fiyat>
+	</kitap>
+	<kitap>
+		<numara>3</numara>
+		<ad>Mesnevi</ad>
+		<yazarlar>
+			<yazar>Mevlana</yazar>
+		</yazarlar>
+		<fiyat>50</fiyat>
+	</kitap>
+	<kitap>
+		<numara>4</numara>
+		<ad>Halkin Kursusu</ad>
+		<yazarlar>
+			<yazar>M. Akif Ersoy</yazar>
+		</yazarlar>
+
+		<fiyat>35</fiyat>
+	</kitap>
+</kitaplar>

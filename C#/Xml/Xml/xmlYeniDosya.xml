@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--xml kitaplar listesi-->
+<kitaplar>
+   <kitap>
+      <numara>1</numara>
+      <ad>nutuk</ad>
+      <yazar>M. Kemal ataturk</yazar>
+      <yayinevi>Kanarya</yayinevi>
+   </kitap>
+   <kitap>
+      <numara>2</numara>
+      <ad>Mesnevi'den secmeler</ad>
+      <yazar>Mevlana Celalettin Rumi</yazar>
+      <yayinevi>Keklik</yayinevi>
+   </kitap>
+</kitaplar>
